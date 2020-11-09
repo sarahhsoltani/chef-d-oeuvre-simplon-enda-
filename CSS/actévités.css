@@ -1,0 +1,249 @@
+.caption {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+
+  letter-spacing: 0.3rem;
+  padding-bottom: 1rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+.connecter a:hover {
+  color: #000 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #dc7633 !important;
+  border-bottom: 1px solid #dc7633;
+}
+.caf2 {
+  background-image: url(../images/caf7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.caption h3 {
+  font-size: 2rem;
+
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+.box {
+  letter-spacing: 2px;
+  line-height: 50px;
+  width: 800px;
+}
+span {
+  width: 300px;
+}
+/***************** List Items  ******************/
+
+.list-items a {
+  text-decoration: none;
+  font-size: 26px;
+  color: #6a5f58;
+}
+.title {
+  font-size: 22px;
+  padding-bottom: 17px;
+  letter-spacing: 9px;
+  color: white;
+}
+.list {
+  text-decoration: none;
+  list-style-type: none;
+}
+ul li {
+  line-height: 30px;
+  color: white;
+}
+.pourcentage p {
+  color: white;
+}
+.pourcentage span {
+  font-size: 61px;
+  font-weight: 500;
+  color: #cc9d49;
+}
+/************Section 3*************  */
+.espace:nth-child(even) {
+  margin-top: 45px;
+}
+.espace:hover {
+  transform: translateY(-3px);
+  opacity: 0.7;
+}
+.espace h5 {
+  color: white;
+  letter-spacing: 1px;
+}
+/************* Section4 Commentaire ************/
+/******************************* test************************/
+/* center the blockquote in the page */
+.blockquote-wrapper {
+  display: flex;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+/* Blockquote main style */
+.blockquote {
+  position: relative;
+  font-family: "Barlow Condensed", sans-serif;
+  max-width: 620px;
+  margin: 80px auto;
+  align-self: center;
+}
+.avis-client {
+  border-radius: 15px;
+}
+/* Blockquote header */
+.blockquote h6 {
+  font-family: "Abril Fatface", cursive;
+  position: relative; /* for pseudos */
+  color: black;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  border: 2px solid #fff;
+  border: solid 2px;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+/* Blockquote right double quotes */
+.blockquote h6:after {
+  content: "";
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 0 50px 0 0;
+  width: 60px;
+  height: 60px;
+  bottom: -62px;
+  left: 50px;
+  border-bottom: none;
+  border-left: none;
+  z-index: 3;
+}
+
+.blockquote h6:before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  border: 6px solid white;
+  bottom: -3px;
+  left: 50px;
+  z-index: 2;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+  .blockquote h6 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+  position: relative;
+  color: #cc9d49;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  padding-top: 15px;
+  z-index: 1;
+}
+
+.blockquote h4:first-letter {
+  margin-left: -12px;
+}
+
+/*********Footer  ***************/
+
+.logo-footer {
+  margin-bottom: 40px;
+}
+
+footer p,
+a {
+  font-size: 15px;
+  color: white;
+}
+footer h6 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 40px;
+  position: relative;
+}
+footer h6:after {
+  position: absolute;
+  content: "";
+  background: grey;
+  width: 12%;
+  height: 1px;
+  left: 0;
+  bottom: -20px;
+}
+.btn-footer {
+  color: grey;
+
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 43px;
+  font-size: 13px;
+  padding: 7px 30px;
+  line-height: 47px;
+}
+.btn-footer:hover {
+  text-decoration: none;
+}
+.form-footer input[type="text"] {
+  border: none;
+  border-radius: 16px 0 0 16px;
+  outline: none;
+  padding-left: 10px;
+}
+::placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+  font-style: italic;
+}
+.form-footer input[type="button"] {
+  border: none;
+  background: #232323;
+  margin-left: -5px;
+  color: #fff;
+  outline: none;
+  border-radius: 0 16px 16px 0;
+  padding: 2px 12px;
+}
+.social .fa {
+  color: grey;
+  font-size: 22px;
+  padding: 10px 15px;
+  background: #3c3c3c;
+}
+footer ul li {
+  list-style: none;
+  display: block;
+}
+footer ul {
+  padding-left: 0;
+}
+footer ul li a {
+  text-decoration: none;
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #f5f5f5 !important;
+}
+.logo-part {
+  border-right: 1px solid grey;
+  height: 100%;
+}
