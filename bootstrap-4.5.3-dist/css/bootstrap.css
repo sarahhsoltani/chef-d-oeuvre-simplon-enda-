@@ -2130,7 +2130,7 @@ select {
   background-color: transparent;
   background-clip: padding-box;
   border: 1px solid #a96538;
-  border-radius: 1.25rem;
+  border-radius: 0.20rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 

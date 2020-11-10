@@ -1,6 +1,4 @@
-.information {
-  background-color: #b0bec5;
-}
+
 h2::after {
   content: "";
   width: 100px;
@@ -22,6 +20,7 @@ ul li {
   color: #dc7633 !important;
   border-bottom: 1px solid #dc7633;
 }
+/* ****Footer************* */
 .logo-footer {
   margin-bottom: 40px;
 }
