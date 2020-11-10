@@ -2116,7 +2116,11 @@ pre code {
 .table-responsive > .table-bordered {
   border: 0;
 }
-
+.form-controll{
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid #a96538 !important; 
+}
 .form-control,
 select {
   display: block;
