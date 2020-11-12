@@ -108,7 +108,7 @@ ul li {
   font-weight: normal;
   line-height: 1;
   margin: 0;
-  border: 2px solid #fff;
+ 
   border: solid 2px;
   border-radius: 20px;
   padding: 25px;
@@ -139,13 +139,6 @@ ul li {
   z-index: 2;
 }
 
-/* increase header size after 600px */
-@media all and (min-width: 600px) {
-  .blockquote h6 {
-    font-size: 1.5rem;
-    line-height: 1.2;
-  }
-}
 
 /* Blockquote subheader */
 .blockquote h4 {
