@@ -19,10 +19,9 @@
   border-bottom: 1px solid #dc7633;
 }
 .caf2 {
-  background-image: url(../images/caf7.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+background-color: #000
+
+
 }
 .caption h3 {
   font-size: 2rem;
@@ -103,12 +102,12 @@ ul li {
 .blockquote h6 {
   font-family: "Abril Fatface", cursive;
   position: relative; /* for pseudos */
-  color: black;
+  color: white;
   font-size: 1.5rem;
   font-weight: normal;
   line-height: 1;
   margin: 0;
- 
+ line-height: 30px;
   border: solid 2px;
   border-radius: 20px;
   padding: 25px;
@@ -118,7 +117,7 @@ ul li {
 .blockquote h6:after {
   content: "";
   position: absolute;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 0 50px 0 0;
   width: 60px;
   height: 60px;
@@ -133,7 +132,7 @@ ul li {
   content: "";
   position: absolute;
   width: 80px;
-  border: 6px solid white;
+  border: 6px solid black;
   bottom: -3px;
   left: 50px;
   z-index: 2;
@@ -156,7 +155,7 @@ ul li {
   margin-left: -12px;
 }
 
-/*********Footer  ***************/
+/****************************** Footer  ***************/
 
 .logo-footer {
   margin-bottom: 40px;

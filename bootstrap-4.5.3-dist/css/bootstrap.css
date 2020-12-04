@@ -3150,6 +3150,12 @@ fieldset:disabled a.btn {
   letter-spacing: 1px;
   border-color: #873602;
 }
+.btn-outline-brownnn {
+  background-color: #873602;
+  color: #ffffff;
+  letter-spacing: 1px;
+  border-color: #873602;
+}
 .zoom .caff:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
